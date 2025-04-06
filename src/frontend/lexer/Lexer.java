@@ -261,9 +261,6 @@ public class Lexer {
                 parseStringOrCharLiteral('\'');
             }
         }
-        if (TRICK && lineNo >= 200 && lineNo <= 210) {
-            Optimizer.isOn = false;
-        }
     }
 
     public boolean isDigit(int c) {
